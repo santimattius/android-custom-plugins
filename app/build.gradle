@@ -43,6 +43,8 @@ dependencies {
     implementation(libs.androidx.compose.material3.windowSizeClass)
 
     implementation project(path: ':core:ui')
+    implementation project(path: ':feature:first-feature')
+    implementation project(path: ':feature:second-feature')
 
     debugImplementation(libs.androidx.compose.ui.testManifest)
     testImplementation libs.bundles.testing

@@ -46,14 +46,14 @@ gradlePlugin {
             implementationClass = "AndroidLibraryConventionPlugin"
         }
 
-        register("androidRoom") {
-            id = "com.santimattius.plugins.room"
-            implementationClass = "AndroidRoomConventionPlugin"
-        }
-
         register("androidFlavors") {
             id = "com.santimattius.plugins.flavors"
             implementationClass = "AndroidApplicationFlavorsConventionPlugin"
+        }
+
+        register("androidFeature") {
+            id = "com.santimattius.plugins.feature"
+            implementationClass = "AndroidFeatureConventionPlugin"
         }
     }
 }
