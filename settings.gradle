@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("plugins")
     repositories {
         google()
         mavenCentral()
@@ -14,3 +15,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Android Custom Plugins"
 include ':app'
+include ':core:ui'
+include ':feature:first-feature'
+include ':feature:second-feature'

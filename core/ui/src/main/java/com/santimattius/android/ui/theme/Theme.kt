@@ -1,4 +1,4 @@
-package com.santimattius.android.custom.plugins.ui.theme
+package com.santimattius.android.ui.theme
 
 import android.app.Activity
 import android.os.Build
